@@ -60,10 +60,10 @@ See pinned repositories below — each ships with a real README, setup steps, an
   Optional: the contribution-snake animation. Add the workflow (snake.yml) first,
   let it run once, then uncomment. Keep ONE visual flourish, not five.
 -->
-<!--
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/professorsab/professorsab/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/professorsab/professorsab/output/github-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/professorsab/professorsab/output/github-snake.svg" />
 </picture>
--->
+
