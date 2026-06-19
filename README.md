@@ -31,9 +31,8 @@ I care about correctness in the unglamorous parts of an LLM stack — request va
 
 **[vLLM](https://github.com/vllm-project/vllm)** &nbsp;·&nbsp; high-throughput LLM inference engine (83k★)
 
-- **[#46038 — Fall back to Pydantic `loc` for `param` in validation errors](https://github.com/vllm-project/vllm/pull/46038)** &nbsp; <a href="https://github.com/vllm-project/vllm/pull/46038"><img src="https://img.shields.io/badge/PR%20%2346038-approved%20·%20pending%20merge-brightgreen?logo=github&logoColor=white" alt="PR 46038"></a> <!-- update to "merged" when it lands -->
-  OpenAI-compatible server returned `param: null` on ordinary missing-field / wrong-type validation errors even though the offending field was recoverable from `error["loc"]`. I made it fall back to the Pydantic location path, added regression tests for both cases, and guarded the fallback against non-dict errors surfaced by Schemathesis fuzzing. Reviewed and approved by a maintainer.
-
+<a href="https://github.com/vllm-project/vllm/pull/46038"><img src="https://img.shields.io/badge/PR%20%2346038-merged-8250df?logo=github&logoColor=white" alt="PR 46038"></a>
+    
 ### 🧰 What I work with
 
 **LLM / Agents** &nbsp; LangChain · CrewAI · RAG · tool-using agents · intent classification · prompt & orchestration tuning
